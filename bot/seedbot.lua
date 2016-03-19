@@ -4,7 +4,7 @@ package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
 
 require("./bot/utils")
 
-VERSION = '2'
+VERSION = '1'
 
 -- This function is called when tg receive a msg
 function on_msg_receive (msg)
@@ -226,7 +226,7 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = (194573293),--Sudo users
+    sudo_users = (115442858),--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Derkhand v1 - Open Source
@@ -235,17 +235,18 @@ An advance Administration bot based on yagop/telegram-bot
 https://github.com/Black-Nine/Derkhand
 
 Admins
-@DaRkHaNd0098
-
+@NeoRabbit
+@Victor_shodow
+برای افراد ریپورت
+@NeoRabbitBot
+@VectorBot
 Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
+NeoRabbit
+Vector
+Sojer
 
 Our channels
-@teleseedch [English]
-@iranseed [persian]
+@BlackNine [persian]
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -427,6 +428,8 @@ will return group ban list
 
 *Only owner can use res,setowner,promote,demote and log commands
 
+*Sudo: @NeoRabbit
+ admin: @Vector_shodow
 ]]
   }
   serialize_to_file(config, './data/config.lua')
