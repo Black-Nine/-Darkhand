@@ -214,7 +214,8 @@ function create_config( )
     "Anti_Link",
     "Block",
     "Calculator",
-    "Calenda"Chat",
+    "Calenda"
+    "Chat",
     "Clash_of_clans",
     "Danestani",
     "Date",
